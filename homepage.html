@@ -2,18 +2,22 @@
 <html xmlns = " http://www.w3.org/1999/xhtml">
     <head>
         <title>home page</title>
+        <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
-        <div id="menu" style="margin:10">
-            <button>home</button>
-            <button>new cars</button>
-            <button>old cars</button>
-            <button>what's new?</button>
+        <div id="mainMenu" style="margin:10">
+            <button name="menuButton">home</button>
+            <button name="menuButton">new cars</button>
+            <button name="menuButton">old cars</button>
+            <button name="menuButton" onmouseover="banana(this)" onmouseout="">what's new?</button>
         </div>
-        <div id="body">
-            <span>
-                <a href="google.com"><img src="https://images.pexels.com/photos/1687147/pexels-photo-1687147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" height="200" width="300"/> hello</a>
-            </span>
-        </div>
+        <span class="carPreview">
+           <a><img src="https://images.pexels.com/photos/1687147/pexels-photo-1687147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Norway" style="width:100%;"></a>
+            <div class="text-block">
+              <h4>Nature</h4>
+              <p>What a beautiful sunrise</p>
+            </div>
+        </span>
+        <script type="text/javascript" src="mainScript.js"></script>
     </body>
 </html>
