@@ -15,18 +15,30 @@ body {
   margin: 5px;
 }
 .carPreview > a > img {
-  max-width: 20rem;
+  max-width: 30rem;
   height: auto;
 }
-.text-block {
+#pic1 {
   position: absolute;
   bottom: 10px;
-  font-size: 0.2rem;
-  right: 10px;
-  background-color: black;
-  color: white;
+  font-size: 1rem;
+  right: 620px;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
   padding-left: 20px;
   padding-right: 20px;
-  height: 3rem;
-  width: 5rem;
+  height: 5rem;
+  width: 10rem;
+}
+#pic2 {
+  position: absolute;
+  bottom: 10px;
+  font-size: 1rem;
+  right: 150px;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 5rem;
+  width: 10rem;
 }
