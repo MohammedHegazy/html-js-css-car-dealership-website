@@ -1,76 +1,66 @@
 body {
-  margin: 70px;
+  margin: 0;
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  background-repeat: repeat;
+  background-size: cover;
 }
+
 #mainMenu {
   margin: 5px;
+  background-color: #b79d94;
+  height: 4rem;
+  position: relative;
+  border: 2px solid #3c6e71;
+  border-radius: 8px;
 }
 
 #mainMenu > button {
   border-radius: 8px;
   transition-duration: 0.4s;
-  max-width: 100px;
-  max-height: 50px;
+  height: 3.2rem;
+  max-width: auto;
+  margin-left: 0.5rem;
+  top: 50%;
+  transform: translateY(10%);
+  color: #55dde0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
-#logo{
-  position: absolute;
-  bottom: 600px;  
-  right: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  height: 150px;
-  width: 500px;
+#logo {
+  float: right;
+  height: 4rem;
+  max-width: auto;
+}
+
+#cars {
+  display: flex;
 }
 
 .carPreview {
-  position: absolute;
-  margin: 11px;
-  top: 160px;
-  left: 75px;
-  
-}
-.carPreview > a > img {
-  max-width: 450px;
-  max-height: 300px;
+  position: relative;
+  margin: 5px;
 }
 
-#pic1 {
+.carPreview > a > img {
+  max-width: 20rem;
+  height: auto;
+}
+
+.text-block {
   position: absolute;
   bottom: 10px;
-  font-size: 1rem;
-  right: 1150px;
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
+  font-size: 0.2rem;
+  right: 10px;
+  background-color: black;
+  color: white;
   padding-left: 20px;
   padding-right: 20px;
-  height: 5rem;
-  width: 10rem;
+  height: 3rem;
+  width: 5rem;
 }
-#pic2 {
-  position: absolute;
-  bottom: 10px;
-  font-size: 1rem;
-  right: 650px;
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 5rem;
-  width: 10rem;
-}
-#pic3 {
-  position: absolute;
-  bottom: 10px;
-  font-size: 1rem;
-  right: 150px;
-  background-color: rgba(0, 0, 0, 0);
-  color: black;
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 5rem;
-  width: 10rem;
-}
-#name1{
+
+#name1 {
   position: absolute;
   bottom: 48px;
   font-size: 1.3rem;
@@ -82,7 +72,7 @@ body {
   height: 5rem;
   width: 15rem;
 }
-#name2{
+#name2 {
   position: absolute;
   bottom: 8px;
   font-size: 1.3rem;
@@ -96,7 +86,7 @@ body {
 }
 #fbicon1 {
   position: absolute;
-  bottom: 120px;  
+  bottom: 120px;
   right: 1470px;
   padding-left: 20px;
   padding-right: 20px;
@@ -105,14 +95,14 @@ body {
 }
 #fbicon2 {
   position: absolute;
-  bottom: 80px;  
+  bottom: 80px;
   right: 1470px;
   padding-left: 20px;
   padding-right: 20px;
   height: 30px;
   width: 50px;
 }
-#contact{
+#contact {
   position: absolute;
   bottom: 80px;
   font-size: 1.7rem;
@@ -124,7 +114,7 @@ body {
   height: 5rem;
   width: 25rem;
 }
-#line{
+#line {
   position: absolute;
   bottom: 100px;
   font-size: 2rem;
