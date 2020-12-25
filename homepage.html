@@ -5,6 +5,7 @@
         <link rel="stylesheet" href="mystyle.css">
     </head>
     <body>
+        <!--menu-->
         <div id="mainMenu" style="margin:5px">
             <a href="homepage.html">
                 <img id="logo" src="http://www.aspu.edu.sy/storage/upload/image/logo_images/o9aczibbzrye_image_هندسة.png" alt="لوغو كلية الهندسة المعلوماتية">
@@ -14,6 +15,7 @@
             <button name="menuButton" onclick="window.location.href='old_cars.html'">old cars</button>
             <button name="menuButton" onclick="window.location.href='about_website.html'">about website</button>
         </div>
+        <!--cars-->
         <div id="cars">
             <span class="carPreview">
             <a><img src="https://images.pexels.com/photos/1687147/pexels-photo-1687147.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Norway" style="width:100%;"></a>
@@ -37,28 +39,39 @@
                 </div>
             </span>
         </div>
+        <!--contact us-->
         <div id="contactus">
-            <p id="contact">
-                <ins>
-                    <b>contact us on:</b>
-                </ins>
-            </p>
-            <i>
-                <b>
-                    <h2 id="name1">Mohammed Hegazy</h2>
-                </b>
-            </i>
-            <a href="https://www.facebook.com/moh123.heg/">
-                <img id="fbicon1" src="data:image/png;base64,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" alt="fb icon" height="30px" width="50px">
-            </a>
-            <i>
-                <b>
-                    <p id="name2">Mohamad Mouaz Al Midani</p>
-                </b>
-            </i>
-            <a href="">
-                <img id="fbicon2" src="data:image/png;base64,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" alt="fb icon" height="30px" width="50px">
-            </a>
+            <div class="contact">
+                <p>
+                    <ins>
+                        <b>contact us on:</b>
+                    </ins>
+                </p>
+            </div>
+            <div class="facebook">
+                <a href="https://www.facebook.com/moh123.heg/">
+                    <img src="https://lh3.googleusercontent.com/proxy/WJI_gNT1ME6xArosrrk_41Q-HCVtYpkKMb0TruQmhgdD7IS0zRL_XZLlnTWlJe_T8YXesSllcLNO1Vz6qjSmYgc9Po2KvfftY8SaMSXrrIRV_7M" alt="facebook icon" height="35px" width="35px">
+                </a> 
+            </div>
+            <div class="name">
+                <i>
+                    <b>
+                        <h2>Mohammed Hegazy</h2>
+                    </b>
+                </i>
+            </div>
+            <div class="facebook">
+                <a href="">
+                    <img src="https://pngimage.net/wp-content/uploads/2018/06/%E0%B9%84%E0%B8%AD%E0%B8%84%E0%B8%AD%E0%B8%99facebook-png-2.png" alt="fb icon" height="35px" width="35px">
+                </a>
+            </div>
+            <div class="name1">
+                <i>
+                    <b>
+                        <h2>Mohammed Mouaz Al Midani</h2>
+                    </b>
+                </i>
+            </div>
         </div>
         <script type="text/javascript" src="mainScript.js"></script>
     </body>
