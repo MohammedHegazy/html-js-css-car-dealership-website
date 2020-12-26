@@ -43,7 +43,7 @@ body {
 }
 
 .carPreview > a > img {
-  max-width: 20rem;
+  max-width: 30rem;
   height: auto;
 }
 
@@ -60,15 +60,21 @@ body {
   width: 5rem;
 }
 
-#contact {
-  display: flex;
+#contactus {
+  margin: 0px;
+  background-color: #b79d94;
+  height: 4.8rem;
+  position: relative;
+  border: 2px solid #3c6e71;
+  border-radius: 20px;
+  height: 8rem;
 }
 
 .contact {
   position: absolute;
-  bottom: 400px;
+  bottom: 70px;
   font-size: 1.7rem;
-  right: 1115px;
+  right: 1080px;
   background-color: rgba(0, 0, 0, 0);
   color: black;
   padding-left: 20px;
@@ -80,8 +86,9 @@ body {
 .facebook {
   position: relative;
   margin: 0;
-  top: 30px;
-  background-color: #868f96;
+  top: 40px;
+  left: 20px;
+  background-color: #b79d94;
 }
 
 .facebook {
@@ -92,28 +99,25 @@ body {
 .name {
   position: absolute;
   font-size: 1rem;
-  bottom: 368px;
-  left: 20px;
+  bottom: 37px;
+  left: 47px;
   background-color: rgba(0, 0, 0, 0);
   color: rgba(0, 51, 145, 0.521);
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   height: auto;
-  width: 20rem;
+  width: 19rem;
 }
 
 .name1 {
   position: absolute;
   font-size: 1rem;
-  bottom: 330px;
-  left: 20px;
+  top: 63px;
+  left: 45px;
   background-color: rgba(0, 0, 0, 0);
   color: rgba(7, 63, 248, 0.473);
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   height: auto;
-  width: 20rem;
+  width: 19rem;
 }
-
-
-
