@@ -39,7 +39,37 @@ body {
 
 .carPreview {
   position: relative;
-  margin: 5px;
+  margin: 10px;
+  background: #060c2100;
+}
+
+.carPreview:before{
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -0px;
+  background: #fff;
+  z-index: -1;
+}
+
+.carPreview:after{
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -1px;
+  background: rgb(243, 0, 0);
+  z-index: -2;
+  filter: blur(40px);
+}
+
+.carPreview:before,.carPreview:after{
+  background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+  animation: animate 20s linear infinite;
+  background-size: 400%;
 }
 
 .carPreview > a > img {
@@ -47,17 +77,40 @@ body {
   height: auto;
 }
 
+@keyframes animate{
+  0%
+  {
+    background-position: 0 0;
+  }
+  50%
+  {
+    background-position: 400% 0;
+  }
+  100%
+  {
+    background-position: 0 0;
+  }
+}
+
 .text-block {
   position: absolute;
-  bottom: 10px;
-  font-size: 0.2rem;
-  right: 10px;
-  background-color: black;
-  color: white;
+  bottom: 20px;
+  font-size: 0.7rem;
+  right: 90px;
+  background-color: none;
+  color: #000;
   padding-left: 20px;
   padding-right: 20px;
-  height: 3rem;
-  width: 5rem;
+  height: 5rem;
+  width: 7rem;
+  cursor: pointer;
+  overflow: hidden;
+  transition: 0.4s;
+}
+
+.text-block:hover{
+  color: #fff;
+
 }
 
 #contactus {
