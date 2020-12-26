@@ -83,7 +83,7 @@ body {
   width: 25rem;
 }
 
-.facebook {
+.github {
   position: relative;
   margin: 0;
   top: 40px;
@@ -91,7 +91,20 @@ body {
   background-color: #b79d94;
 }
 
-.facebook {
+.github {
+  max-width: 2rem;
+  height: auto;
+}
+
+.linkedin {
+  position: relative;
+  margin: 0;
+  bottom: 38px;
+  left: 400px;
+  background-color: #b79d94;
+}
+
+.linkedin {
   max-width: 2rem;
   height: auto;
 }
@@ -102,7 +115,7 @@ body {
   bottom: 37px;
   left: 47px;
   background-color: rgba(0, 0, 0, 0);
-  color: rgba(0, 51, 145, 0.521);
+  color: black;
   padding-left: 10px;
   padding-right: 10px;
   height: auto;
@@ -114,6 +127,32 @@ body {
   font-size: 1rem;
   top: 63px;
   left: 45px;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  width: 19rem;
+}
+
+.name2 {
+  position: absolute;
+  font-size: 1rem;
+  bottom: 37px;
+  left: 430px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(7, 63, 248, 0.473);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  width: 19rem;
+}
+
+.name3 {
+  position: absolute;
+  font-size: 1rem;
+  top: 63px;
+  left: 430px;
   background-color: rgba(0, 0, 0, 0);
   color: rgba(7, 63, 248, 0.473);
   padding-left: 10px;
