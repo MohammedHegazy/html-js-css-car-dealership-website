@@ -39,7 +39,7 @@
   
   .carPreview > a > img {
     max-width: 30rem;
-    height: auto;
+    height: 240px;
   }
   
   @keyframes animate{
