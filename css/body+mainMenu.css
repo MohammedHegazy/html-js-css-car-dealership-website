@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#mainMenu {
+  margin: 5px;
+  background-color: #b79d94;
+  height: 4rem;
+  position: relative;
+  border: 2px solid #3c6e71;
+  border-radius: 8px;
+}
+
+#mainMenu > button {
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  height: 3.2rem;
+  max-width: auto;
+  margin-left: 0.5rem;
+  top: 50%;
+  transform: translateY(10%);
+  color: #55dde0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+#logo {
+  float: right;
+  height: 4rem;
+  max-width: auto;
+}
