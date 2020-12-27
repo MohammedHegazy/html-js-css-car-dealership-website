@@ -45,7 +45,7 @@
     #cf556c 78%,
     #b12a5b 100%
   );
-  animation: animate 60s linear infinite;
+  animation: animate 20s linear infinite;
   background-size: 400%;
 }
 
