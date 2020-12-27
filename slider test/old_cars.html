@@ -2,9 +2,8 @@
 <html xmlns = " http://www.w3.org/1999/xhtml">
     <head>
         <title>
-            slider test autoplay and controller
+            المركبات القديمة
         </title>
-        <link rel="stylesheet" href="css/slider_test.css">
         <link rel="stylesheet" href="css/body+mainMenu.css">
         <link rel="stylesheet" href="css/car.css">
         <link rel="stylesheet" href="css/text_block.css">
@@ -21,46 +20,56 @@
             <button name="menuButton" onclick="window.location.href='old_cars.html'">المركبات القديمة</button>
             <button name="menuButton" onclick="window.location.href='about_website.html'">من نحن</button>
         </div>
-        <!--slider-->
-        <div class="image_slider">
-            <div class="slide active">
-                <img src="test images/test1.jpeg">
-                <div class="info">
-                    <h2>slide one</h2>
-                    <p>
-                        qkowsfanioavnqpkmvoivnqpeks ianvqi jqwocnas'pm
-                        sadfpoiqnoefksa
-                    </p>
+        <!--cars-->
+        <div id="cars">
+            <span class="carPreview">
+            <a><img src="car photos/old cars/Cadillac_Eldorado_(1959)/Cadillac_Eldorado_(1959)_1.jpg" alt="Cadillac_Eldorado_(1959)" style="width:100%;"></a>
+                <div class="text-block">
+                    <div class="title">
+                        Cadillac
+                    </div>
+                    <div class="description">
+                        Cadillac Eldorado(1959)
+                    </div>
                 </div>
-            </div>
-            <div class="slide">
-                <img src="test images/test2.jpeg">
-                <div class="info">
-                    <h2>slide two</h2>
-                    <p>
-                        qkowsfanioavnqpkmvoivnqpeks ianvqi jqwocnas'pm
-                        sadfpoiqnoefksa
-                    </p>
+            </span>
+            <span class="carPreview">
+                <a><img src="car photos/old cars/Jaguar_E-Type_SI_(1963)/Jaguar_E-Type_SI_(1963)_1.jpg" alt="Jaguar_E-Type_SI_(1963)" style="width:100%;"></a>
+                    <div class="text-block">
+                        <div class="title">
+                            Jaguar
+                        </div>
+                        <div class="description">
+                            Jaguar E-Type SI(1963)
+                        </div>
+                    </div>
+                </span>
+            <span class="carPreview">
+            <a><img src="car photos/old cars/Mercedes_Benz_300_SL_(1957)/Mercedes_Benz_300_SL_(1957)_1.jpg" alt="Mercedes_Benz_300_SL_(1957)" style="width:100%;"></a>
+                <div class="text-block">
+                    <div class="title">
+                        Mercedes
+                    </div>
+                    <div class="description">
+                        Mercedes Benz 300 SL(1957)
+                    </div>
                 </div>
-            </div>
-            <div class="slide">
-                <img src="test images/test3.jpeg">
-                <div class="info">
-                    <h2>slide three</h2>
-                    <p>
-                        qkowsfanioavnqpkmvoivnqpeks ianvqi jqwocnas'pm
-                        sadfpoiqnoefksa
-                    </p>
+            </span>
+            <span class="carPreview">
+                <a><img src="https://images.pexels.com/photos/241316/pexels-photo-241316.jpeg?cs=srgb&dl=pexels-mike-241316.jpg&fm=jpg" alt="Norway" style="width:100%;"></a>
+                <div class="text-block">
+                    <div class="title">
+                        Nature
+                    </div>
+                    <div class="description">
+                        What a beautiful sunrise
+                    </div>
                 </div>
-            </div>
-            <div class="navigation">
-                <div class="btn active"></div>
-                <div class="btn"></div>
-                <div class="btn"></div>
-            </div>
+            </span>
         </div>
-        <!--contact us-->
-        <div id="contactus">
+
+         <!--contact us-->
+         <div id="contactus">
             <span class="name" style="vertical-align: top;">
                 <h2>contact us</h2>
             </span>
@@ -84,6 +93,5 @@
             </span>
         </div>
         <script type="text/javascript" src="javascript/mainScript.js"></script>
-        <script type="text/javascript" src="javascript/slider_test.js"></script>
     </body>
 </html>

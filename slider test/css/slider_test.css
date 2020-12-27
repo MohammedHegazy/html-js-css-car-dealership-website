@@ -10,15 +10,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #1d212b;
+    background: none;
 }
 
 .image_slider{
     position: relative;
     width: 800px;
     height: 500px;
-    margin: 10px;
-    background: #1d212b;
+    margin: 2px;
+    background: none;
 }
 
 .image_slider .slide{
