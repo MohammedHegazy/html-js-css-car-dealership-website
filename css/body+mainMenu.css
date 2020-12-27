@@ -29,7 +29,7 @@ body {
   transform: translateY(10%);
   border: none;
   background: none;
-  color: #55dde0;
+  color: #e94f37;
   font-family: watan;
   font-weight: bold;
 }
@@ -73,7 +73,7 @@ body {
   font-size: 0.5rem;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0);
-  color: #4dfff3;
+  color: #e94f37;
   padding-left: 10px;
   padding-right: 10px;
   font-family: watan;

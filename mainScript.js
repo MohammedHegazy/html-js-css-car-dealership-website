@@ -9,14 +9,14 @@ for (var i = 0; i < menuButton.length; i++)
 
 function mouseOverButton(button) 
 {
-    button.style.backgroundColor = '#4DFFF3';
+    button.style.backgroundColor = '#e94f37';
     button.style.color  = "#503D3F";
 }
 //55DDE0
 function mouseOutButton(button) 
 {
     button.style.backgroundColor = "#503D3F";
-    button.style.color  = '#4DFFF3';
+    button.style.color  = '#e94f37';
 }
 
 /* if scrolled to bottom show bottom*/
