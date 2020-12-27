@@ -6,7 +6,7 @@ body {
 }
 
 #mainMenu {
-  background-color: #3c6e71;
+  background-color: #503d3f;
   position: fixed;
   height: 4rem;
   top: 0;
@@ -17,6 +17,7 @@ body {
   margin-top: 0px;
   opacity: 70%;
 }
+
 #mainMenu > button {
   border-radius: 8px;
   transition-duration: 0.4s;
@@ -34,16 +35,44 @@ body {
 }
 
 #background {
-  filter: brightness(20%);
+  filter: brightness(90%);
 }
 
 #logo {
-  float: left;
-  height: 4rem;
+  top: -85px;
+  position: fixed;
+  height: 15rem;
   max-width: auto;
 }
 
 @font-face {
   font-family: watan;
   src: url("watan.ttf");
+}
+
+#contactus {
+  margin: 10px;
+  background-color: #503d3f;
+  height: 6rem;
+  position: fixed;
+  bottom: 0;
+  border-radius: 20px;
+  width: auto;
+  transition-duration: 0.2;
+}
+
+.name {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.name > h2 {
+  font-size: 1rem;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
 }
