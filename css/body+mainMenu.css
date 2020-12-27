@@ -6,29 +6,44 @@ body {
 }
 
 #mainMenu {
-  margin: 5px;
-  background-color: #b79d94;
+  background-color: #3c6e71;
+  position: fixed;
   height: 4rem;
-  position: relative;
-  border: 5px solid #3c6e71;
+  top: 0;
+  width: 99%;
+  z-index: 100;
   border-radius: 8px;
+  margin: 5px;
+  margin-top: 0px;
+  opacity: 70%;
 }
-
 #mainMenu > button {
   border-radius: 8px;
   transition-duration: 0.4s;
   height: 3.2rem;
   max-width: auto;
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  float: right;
   top: 50%;
   transform: translateY(10%);
+  border: none;
+  background: none;
   color: #55dde0;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: watan;
   font-weight: bold;
 }
 
+#background {
+  filter: brightness(20%);
+}
+
 #logo {
-  float: right;
+  float: left;
   height: 4rem;
   max-width: auto;
+}
+
+@font-face {
+  font-family: watan;
+  src: url("watan.ttf");
 }

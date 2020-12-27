@@ -1,101 +1,102 @@
-  #contactus {
-    top: 40px;
-    margin: 0px;
-    background-color: #b79d94;
-    height: 4.8rem;
-    position: relative;
-    border: 5px solid #3c6e71;
-    border-radius: 20px;
-    height: 7.8rem;
-  }
-  
-  .contact {
-    position: absolute;
-    bottom: 70px;
-    font-size: 1.7rem;
-    right: 1080px;
-    background-color: rgba(0, 0, 0, 0);
-    color: black;
-    padding-left: 20px;
-    padding-right: 20px;
-    height: 5rem;
-    width: 25rem;
-  }
-  
-  .github {
-    position: relative;
-    margin: 0;
-    top: 40px;
-    left: 20px;
-    background-color: #b79d94;
-  }
-  
-  .github {
-    max-width: 2rem;
-    height: auto;
-  }
-  
-  .linkedin {
-    position: relative;
-    margin: 0;
-    bottom: 38px;
-    left: 400px;
-    background-color: #b79d94;
-  }
-  
-  .linkedin {
-    max-width: 2rem;
-    height: auto;
-  }
-  
-  .name {
-    position: absolute;
-    font-size: 1rem;
-    bottom: 37px;
-    left: 47px;
-    background-color: rgba(0, 0, 0, 0);
-    color: black;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: auto;
-    width: 19rem;
-  }
-  
-  .name1 {
-    position: absolute;
-    font-size: 1rem;
-    top: 63px;
-    left: 45px;
-    background-color: rgba(0, 0, 0, 0);
-    color: black;
-    padding-left: 10px;
-    padding-right: 10px;
-    height: auto;
-    width: 19rem;
-  }
-  
-  .name2 {
-    position: absolute;
-    font-size: 1rem;
-    bottom: 37px;
-    left: 430px;
-    background-color: rgba(0, 0, 0, 0);
-    color: rgba(7, 63, 248, 0.473);
-    padding-left: 10px;
-    padding-right: 10px;
-    height: auto;
-    width: 19rem;
-  }
-  
-  .name3 {
-    position: absolute;
-    font-size: 1rem;
-    top: 63px;
-    left: 430px;
-    background-color: rgba(0, 0, 0, 0);
-    color: rgba(7, 63, 248, 0.473);
-    padding-left: 10px;
-    padding-right: 10px;
-    height: auto;
-    width: 19rem;
-  }
+#contactus {
+  margin: 0;
+  background-color: #b79d94;
+  height: 4.8rem;
+  position: fixed;
+  bottom: 0;
+  border: 5px solid #3c6e71;
+  border-radius: 20px;
+  height: 7.8rem;
+  width: 99%;
+}
+
+.contact {
+  position: absolute;
+  bottom: 70px;
+  font-size: 1.7rem;
+  right: 1080px;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 5rem;
+  width: 25rem;
+}
+
+.github {
+  position: relative;
+  margin: 0;
+  top: 40px;
+  left: 20px;
+  background-color: #b79d94;
+}
+
+.github {
+  max-width: 2rem;
+  height: auto;
+}
+
+.linkedin {
+  position: relative;
+  margin: 0;
+  bottom: 38px;
+  left: 400px;
+  background-color: #b79d94;
+}
+
+.linkedin {
+  max-width: 2rem;
+  height: auto;
+}
+
+.name {
+  position: absolute;
+  font-size: 1rem;
+  bottom: 37px;
+  left: 47px;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  width: 19rem;
+}
+
+.name1 {
+  position: absolute;
+  font-size: 1rem;
+  top: 63px;
+  left: 45px;
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  width: 19rem;
+}
+
+.name2 {
+  position: absolute;
+  font-size: 1rem;
+  bottom: 37px;
+  left: 430px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(7, 63, 248, 0.473);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  width: 19rem;
+}
+
+.name3 {
+  position: absolute;
+  font-size: 1rem;
+  top: 63px;
+  left: 430px;
+  background-color: rgba(0, 0, 0, 0);
+  color: rgba(7, 63, 248, 0.473);
+  padding-left: 10px;
+  padding-right: 10px;
+  height: auto;
+  width: 19rem;
+}
