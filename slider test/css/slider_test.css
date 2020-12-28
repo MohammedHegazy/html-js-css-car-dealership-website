@@ -37,7 +37,7 @@ body{
 .image_slider .slide img{
     z-index: 1;
     width: 100%;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .image_slider .slide .info{
