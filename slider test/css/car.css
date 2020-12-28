@@ -6,7 +6,6 @@
   position: relative;
   margin: 10px;
   background: #060c2100;
-  border-radius: 8px;
 }
 
 .carPreview:before {
@@ -18,7 +17,7 @@
   bottom: -0px;
   background: #fff;
   z-index: -1;
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .carPreview:after {
@@ -31,7 +30,7 @@
   background: rgb(243, 0, 0);
   z-index: -2;
   filter: blur(40px);
-  border-radius: 8px;
+  border-radius: 20px;
 }
 
 .carPreview:before,
@@ -52,6 +51,7 @@
 .carPreview > a > img {
   max-width: 25rem;
   height: 200px;
+  border-radius: 20px;
 }
 
 @keyframes animate {
