@@ -1,52 +1,8 @@
-var slides = document.querySelectorAll('.slide');
-var btns = document.querySelectorAll('.btn');
-let currentslide = 1;
-
-// javascript for image slider manula navigation
-var manualnav = function(manual){
-    slides.forEach((slide) =>{
-        slide.classList.remove('active');
-
-        btns.forEach((btn) =>{
-        btn.classList.remove('active');
-        });
-    });
-
-    slides[manual].classList.add('active');
-    btns[manual].classList.add('active');
-}
-
-btns.forEach((btn, i) =>{
-    btn.addEventListener("click", () =>{
-        manualnav(i);
-        currentslide = i;
-    });
-});
-
-//javascript for image slider autoplay navigation
-var repeat =function(activeclass){
-    let active =document.getElementsByClassName('active');
-    let i = 1;
-
-    var repeater = () => {
-        setTimeout(function(){
-            [...active].forEach((activeslide) =>{
-                activeslide.classList.remove('active');
-            });
-
-            slides[i].classList.add('active');
-            btns[i].classList.add('active');
-            i++
-
-            if(slides.length == i){
-                i = 0;
-            }
-            if(i >= slides.length){
-                return;
-            }
-            repeater();
-        }, 5000);
+var counter = 1;
+setInterval(function(){
+    document.getElementById('radio' + counter).checked = true;
+    counter++;
+    if(counter > 3){
+        counter = 1;
     }
-    repeater();
-}
-repeat();
+}, 6000);
