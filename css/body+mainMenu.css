@@ -60,6 +60,7 @@ body {
   border-radius: 20px;
   width: auto;
   transition-duration: 0.2;
+  z-index: 3;
 }
 
 .name {
