@@ -6,7 +6,6 @@
   position: relative;
   margin: 10px;
   background: #060c2100;
-  border-radius: 8px;
 }
 
 .carPreview:before {
@@ -52,6 +51,7 @@
 .carPreview > a > img {
   max-width: 25rem;
   height: 200px;
+  border-radius: 8px;
 }
 
 @keyframes animate {

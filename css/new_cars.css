@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cars{
+    position: relative;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.cars .carcard{
+    position: relative;
+    max-width: 400px;
+    height: 215px;
+    top: 60px;
+    background: #e94f37;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 202px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in-out;
+    border-radius: 4px;
+}
+
+.cars .carcard:hover{
+    height: 250px;
+}
+
+.cars .carcard .carbox{
+    position: relative;
+    width: 300px;
+    height: 260px;
+    top: -60px;
+    left: 0px;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+
+.cars .carcard .carbox img{
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.cars .carcard .description{
+    position: relative;
+    margin-top: -100px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.cars .carcard:hover .description{
+    visibility: visible;
+    opacity: 1;
+    transition-delay: 0.3s;
+}
