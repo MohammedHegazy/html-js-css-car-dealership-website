@@ -24,7 +24,7 @@ body{
 .cars .carcard{
     position: relative;
     max-width: 400px;
-    height: 215px;
+    height: 150px;
     top: 60px;
     background: #e94f37;
     margin: 30px 10px;
