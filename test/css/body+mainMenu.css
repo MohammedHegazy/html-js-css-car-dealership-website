@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+#mainMenu {
+  background-color: #503d3f;
+  position: fixed;
+  height: 4rem;
+  top: 0;
+  width: 99%;
+  z-index: 100;
+  border-radius: 8px;
+  margin: 5px;
+  margin-top: 0px;
+  opacity: 70%;
+}
+
+#mainMenu > button {
+  border-radius: 8px;
+  transition-duration: 0.4s;
+  height: 3.2rem;
+  max-width: auto;
+  margin-right: 0.5rem;
+  float: right;
+  top: 50%;
+  transform: translateY(10%);
+  border: none;
+  background: none;
+  color: #e94f37;
+  font-family: watan;
+  font-weight: bold;
+}
+
+#background {
+  filter: brightness(90%);
+}
+
+#logo {
+  top: -85px;
+  position: fixed;
+  height: 15rem;
+  max-width: auto;
+}
+
+@font-face {
+  font-family: watan;
+  src: url("watan.ttf");
+}
+
+#contactus {
+  margin: 10px;
+  background-color: #503d3f;
+  height: 5rem;
+  position: fixed;
+  bottom: 0;
+  left: 10%;
+  border-radius: 20px;
+  width: auto;
+  transition-duration: 0.2;
+  z-index: 3;
+}
+
+.name {
+  position: relative;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+}
+
+.name > p {
+  font-size: 0.5rem;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0);
+  color: #e94f37;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: watan;
+}
