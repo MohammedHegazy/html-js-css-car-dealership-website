@@ -1,0 +1,30 @@
+	Overview
+Manufacturer	Mercedes-Benz
+Production	1957 (Roadster)
+Assembly	West Germany: Stuttgart-Untertürkheim
+
+	Body and chassis
+Class		Sports car / Grand tourer
+Body style	2-door Coupe, Roadster
+Layout		FR layout
+Platform	Coupe W198 I, Roadster W198 II
+Doors		Conventional (Roadster)
+Related		Mercedes-Benz W121 BII (190 SL)
+
+	Powertrain
+Engine		2,996 cc (182.8 cu in) M198 Straight six
+Transmission	4-speed manual
+
+	Dimensions
+Wheelbase	2,400 mm (94.5 in)
+Length		4,520 mm (178.0 in)
+Width		1,790 mm (70.5 in)
+Height		1,300 mm (51.2 in)
+Curb weight	Coupe 1,500 kilograms (3,300 pounds), Roadster 1,560 kilograms (3,440 pounds), from 1961 1,660 kilograms (3,660 pounds)
+
+	Chronology
+Predecessor	Mercedes-Benz W194 (racing car)
+Successor	by name:
+		Mercedes-Benz W113 (230SL)
+		spiritual:
+		Mercedes-Benz SLS AMG

@@ -2,10 +2,27 @@
 <html lang="en" dir="ltr">
   <head>
     <title>Responsive Image Slider | With Manual Buttons and Autoplay Navigation Visibility</title>
-    <link rel="stylesheet" href="slider.css">
-    <link rel="stylesheet" href="slider2.css">
+    <link rel="stylesheet" href="css/slider.css">
+    <link rel="stylesheet" href="css/slider2.css">
+        <link rel="stylesheet" href="css/body+mainMenu.css">
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
   </head>
   <body>
+
+    <div id="mainMenu" style="margin:5px; font-family: watan;" >
+      <a href="test.html">
+          <img id="logo" src="IMGS/logo.png" alt="aspu_it_logo">
+      </a>
+      <button name="menuButton" onclick="window.location.href='test.html'">الصفحة الرئيسية</button>
+      <button name="menuButton" onclick="window.location.href='new_cars.html'">المركبات الحديثة</button>
+      <button name="menuButton" onclick="window.location.href='old_cars.html'">المركبات القديمة</button>
+      <button name="menuButton" onclick="window.location.href='about_website.html'">من نحن</button>
+  </div>
+  <!--background-->
+  <div id="background">
+      <img src="./IMGS/BG.jpg" alt="Norway" style="width:100%;">
+  </div>
+
     <!--background slider-->
     <!--bay attention for list of images-->
     <div class="img-slider">
@@ -65,7 +82,7 @@
         <div class="bt"></div>
       </div>
     </div>
-
+    <script type="text/javascript" src="mainScript.js"></script>
     <script type="text/javascript" src="slider.js"></script>
     <script type="text/javascript" src="slider2.js"></script>
   </body>
