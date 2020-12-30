@@ -61,6 +61,7 @@ body{
     object-fit: cover;
 }
 
+<<<<<<< Updated upstream
 .how-is-us .box .contentbx{
     position: absolute;
     top: 0;
@@ -84,4 +85,8 @@ body{
     transform: rotateX(0deg);
     opacity: 1;
     transition-delay: 0.2s;
+=======
+.box:before,.box:after{
+    background: linear-gradient(45deg,#89ff00,#060c21,#00bcd4);
+>>>>>>> Stashed changes
 }

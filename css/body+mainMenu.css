@@ -61,6 +61,7 @@ body {
   width: auto;
   transition-duration: 0.2;
   z-index: 3;
+  visibility: hidden;
 }
 
 .name {

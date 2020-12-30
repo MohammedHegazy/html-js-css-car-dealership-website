@@ -12,7 +12,7 @@ function mouseOverButton(button)
     button.style.backgroundColor = '#e94f37';
     button.style.color  = "#503D3F";
 }
-//55DDE0
+
 function mouseOutButton(button) 
 {
     button.style.backgroundColor = "#503D3F";

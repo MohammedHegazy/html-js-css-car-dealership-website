@@ -5,7 +5,7 @@
 .carPreview {
   position: relative;
   margin: 10px;
-  background: #060c2100;
+  margin-top: 10%;
 }
 
 .carPreview:before {
@@ -15,7 +15,6 @@
   left: -3px;
   right: -3px;
   bottom: -0px;
-  background: #fff;
   z-index: -1;
   border-radius: 8px;
 }
@@ -27,7 +26,6 @@
   left: -5px;
   right: -5px;
   bottom: -1px;
-  background: rgb(243, 0, 0);
   z-index: -2;
   filter: blur(40px);
   border-radius: 8px;
@@ -44,13 +42,12 @@
     #cf556c 78%,
     #b12a5b 100%
   );
-  animation: animate 20s linear infinite;
-  background-size: 400%;
+  animation: animate 20s cubic-bezier(0.4, 0, 1, 1) infinite;
+  background-size: 200%;
 }
 
 .carPreview > a > img {
-  max-width: 25rem;
-  height: 200px;
+  height: auto;
   border-radius: 8px;
 }
 
@@ -59,7 +56,7 @@
     background-position: 0 0;
   }
   50% {
-    background-position: 400% 0;
+    background-position: 200% 0;
   }
   100% {
     background-position: 0 0;
