@@ -1,0 +1,11 @@
+#background > form {
+  top: 15%;
+  left: 3%;
+  position: fixed;
+  background-color: #615756;
+  padding: 2%;
+  padding-top: 0;
+  padding-bottom: 0;
+  color: wheat;
+  box-shadow: 5px 10px #4dfff3;
+}

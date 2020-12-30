@@ -21,7 +21,7 @@
         <div class="cars">
             <div class="carcard">
                 <div class="carbox">
-                    <img src="IMGS/newC/d7.jpg" alt="Norway"style="width:100%;">
+                    <a onclick="testJS(this)" id="d7"><img src="IMGS/newC/d7.jpg" alt="Norway"style="width:100%;"></a>
                 </div>
                 <div class="description">
                     <h2>Dodge D7</h2>
@@ -34,7 +34,7 @@
             </div>
             <div class="carcard">
                 <div class="carbox">
-                    <img src="IMGS/newC/d8.jpg" alt="Norway" style="width:100%;">
+                    <a onclick="testJS(this)" id="d8"><img src="IMGS/newC/d8.jpg" alt="Norway" style="width:100%;"></a>
                 </div>
                 <div class="description">
                     <h2>Dodge d8</h2>
@@ -47,7 +47,7 @@
             </div>
             <div class="carcard">
                 <div class="carbox">
-                    <img src="IMGS/newC/dc.jpg" alt="Norway"style="width:100%;">
+                    <a onclick="testJS(this)" id="dc"><img src="IMGS/newC/dc.jpg" alt="Norway"style="width:100%;"></a>
                 </div>
                 <div class="description">
                     <h2>Dodge Coder</h2>
@@ -59,7 +59,7 @@
             </div>
             <div class="carcard">
                 <div class="carbox">
-                    <img src="IMGS/newC/ds.jpg" alt="Norway" style="width:100%;">
+                    <a onclick="testJS(this)" id="ds"><img src="IMGS/newC/ds.jpg" alt="Norway" style="width:100%;"></a>
                 </div>
                 <div class="description">
                     <h2>Dodge Super</h2>
@@ -70,7 +70,6 @@
                 </div>
             </div>
         </div>
-  
           <!--contact us-->
         <div id="contactus">
             <span class="name">
@@ -97,5 +96,14 @@
             </span>
             
         </div>
+        <script>
+            function testJS(e) 
+            {
+                var b = e.id;
+                    url = 'customCar.html?name=' + encodeURIComponent(b);
+
+                document.location.href = url;
+            }
+        </script>
     </body>
 </html>
