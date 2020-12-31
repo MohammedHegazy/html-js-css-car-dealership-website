@@ -3,7 +3,7 @@ function chkname(){
     var ch=nam.value.search(/^[A-Z][a-z]+ [A-Z]*[a-z]+$/);
 	if (ch != 0)
     {
-        alert("the name you entered ("+nam.value+")is not correct please enter your name again\n hint(muaz almidani)or(Mohammed Hegazy)");
+        alert("the name you entered ("+nam.value+")is not correct please enter your name again\n hint(Muaz almidani)or(Mohammed Hegazy)");
 		nam.focus;
 		nam.select();
 	    return false;

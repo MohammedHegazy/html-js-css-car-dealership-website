@@ -38,9 +38,9 @@
                 <table> 
                     <tr> <td> Buyer's Name: </td> <td> <input type = "text" name = "name" required id = "name" onchange = "chkname();" maxlength="30" size="30"/> </td> 
                     </tr> 
-                    <tr> <td> Street Address: </td> <td> <input type = "text" name = "street" size = "30" /> </td> 
+                    <tr> <td> Street Address: </td> <td> <input type = "text" name = "street" required size = "30" /> </td> 
                     </tr> 
-                    <tr><td> City, State, Zip: </td> <td> <input type = "text" name = "city" size = "30" /> </td> 
+                    <tr><td> City, State, Zip: </td> <td> <input type = "text" name = "city" required size = "30" /> </td> 
                     </tr> 
                 </table> 
                 <table border = "border"> 
@@ -52,10 +52,10 @@
                 </table>
                 <h3> Payment Method: </h3> 
                 <p> 
-                    <input type = "radio" name = "payment" value = "0.2" checked = "checked"/> Visa 
-                    <input type = "radio" name = "payment" value = "0.3" /> Master Card 
-                    <input type = "radio" name = "payment" value = "1" /> Discover 
-                    <input type = "radio" name = "payment" value = "0.50" /> Check <br/> </p> <p> 
+                    <input type = "radio" name = "payment" value = "0.80" checked = "checked"/> Visa (20% discount)<br/>
+                    <input type = "radio" name = "payment" value = "0.70" /> Master Card (30% discount)<br/>
+                    <input type = "radio" name = "payment" value = "1" /> Discover (no discount)<br/>
+                    <input type = "radio" name = "payment" value = "0.50" /> Check (50% discount)<br/> </p> <p> 
                     <input type = "submit" value = "Submit Order" /> 
                     <input type = "reset" value = "Clear Order Form" />
                     <input type="button" id="cal" value="calculate" onclick="calculate();"/>
