@@ -1,70 +1,154 @@
 <!DOCTYPE html>
 <html xmlns = " http://www.w3.org/1999/xhtml">
     <head>
-        <title>المركبات القديمة</title>
+        <title>معرض المركبات القديمة</title>
         <link rel="stylesheet" href="css/body+mainMenu.css">
-        <link rel="stylesheet" href="css/car.css">
-        <link rel="stylesheet" href="css/text_block.css">
+        <link rel="stylesheet" href="css/old_cars_dropdownlayer.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" type="text/javascript"></script>
     </head>
     <body>
         <!--menu-->
         <div id="mainMenu" style="margin:5px; font-family: watan;" >
             <a href="homepage.html">
-                <img id="logo" src="IMGS/logo.png" alt="aspu_it_logo">
+                <img id="logo" src="logo/logo.png" alt="aspu_it_logo">
             </a>
             <button name="menuButton" onclick="window.location.href='homepage.html'">الصفحة الرئيسية</button>
             <button name="menuButton" onclick="window.location.href='new_cars.html'">المركبات الحديثة</button>
-            <button name="menuButton" onclick="window.location.href='old_cars.html'">المركبات القديمة</button>
+            <button name="menuButton" onclick="window.location.href='old_cars.html'">معرض المركبات القديمة</button>
             <button name="menuButton" onclick="window.location.href='about_website.html'">من نحن</button>
         </div>
 
         <!--cars-->
-        <div id="cars">
-            <span class="carPreview">
-            <a><img src="car photos/old cars/Cadillac_Eldorado_(1959)/Cadillac_Eldorado_(1959)_1.jpg" alt="Cadillac_Eldorado_(1959)" style="width:100%;"></a>
-                <div class="text-block">
-                    <div class="title">
-                        Cadillac
-                    </div>
-                    <div class="description">
-                        Cadillac Eldorado(1959)
-                    </div>
-                </div>
-            </span>
-            <span class="carPreview">
-                <a><img src="car photos/old cars/Jaguar_E-Type_SI_(1963)/Jaguar_E-Type_SI_(1963)_1.jpg" alt="Jaguar_E-Type_SI_(1963)" style="width:100%;"></a>
-                    <div class="text-block">
-                        <div class="title">
-                            Jaguar
-                        </div>
-                        <div class="description">
-                            Jaguar E-Type SI(1963)
-                        </div>
-                    </div>
-                </span>
-            <span class="carPreview">
-            <a><img src="car photos/old cars/Mercedes_Benz_300_SL_(1957)/Mercedes_Benz_300_SL_(1957)_1.jpg" alt="Mercedes_Benz_300_SL_(1957)" style="width:100%;"></a>
-                <div class="text-block">
-                    <div class="title">
-                        Mercedes
-                    </div>
-                    <div class="description">
-                        Mercedes Benz 300 SL(1957)
-                    </div>
-                </div>
-            </span>
-            <span class="carPreview">
-                <a><img src="car photos/old cars/Cadillac_Eldorado_(1959)/Cadillac_Eldorado_(1959)_1.jpg" alt="Norway" style="width:100%;"></a>
-                <div class="text-block">
-                    <div class="title">
-                        Nature
-                    </div>
-                    <div class="description">
-                        What a beautiful sunrise
-                    </div>
-                </div>
-            </span>
+        <br><br><br> 
+    <div class="container">
+      <div class="persons js-dropdown-items">
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="IMGS/old cars/Cadillac Eldorado.jpg" alt="" title="Albert Einstein"></div>
+          <div class="fullname">Cadillac Eldorado</div>
+          <div class="title">(1959)</div>
+          <div class="js-description">
+            <p>
+              <h2>Overview</h2> </br>
+              Assembly&nbsp;&nbsp;&nbsp;Detroit, Michigan, U.S.</br>
+              Designer&nbsp;&nbsp;&nbsp;Chuck Jordan</br>
+              </br>
+            <h2>Body and chassis</h2></br>
+              Body style	Series 62: &nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;2-door hardtop
+              &nbsp;2-door convertible</br>
+              Series 6900:&nbsp;&nbsp;&nbsp;&nbsp;
+                  4-door hardtop</br>
+              Layout&nbsp;&nbsp;&nbsp;&nbsp;		FR layout</br>
+              Platform&nbsp;&nbsp;&nbsp;&nbsp;	C-body</br>
+              Related &nbsp;&nbsp;&nbsp;&nbsp;		Cadillac Sixty Special&nbsp;&nbsp;
+                  Cadillac De Ville&nbsp;&nbsp;
+                  Cadillac Series 62&nbsp;&nbsp;
+                  Buick Electra&nbsp;&nbsp;
+                  Oldsmobile 98&nbsp;&nbsp;</br>
+                </br>
+              <h2>Powertrain</h2>
+              Engine&nbsp;&nbsp;&nbsp;&nbsp;		390 cu in (6.4 L) OHV V8</br>
+              Transmission&nbsp;&nbsp;&nbsp;&nbsp;	4-speed Hydra-Matic</br>
+              </br>
+            <h2>Dimensions</h2>
+              Wheelbase &nbsp;&nbsp;&nbsp;&nbsp;	130.0 in (3,302 mm)</br>
+              Length&nbsp;&nbsp;&nbsp;&nbsp;		225.0 in (5,715 mm)</br>
+              Width&nbsp;&nbsp;&nbsp;&nbsp;		1959 2-door: 80.2 in (2,037 mm)&nbsp;&nbsp;
+                  1960 2-door: 79.9 in (2,029 mm)&nbsp;&nbsp;
+                  4-door: 80.2 in (2,037 mm)&nbsp;&nbsp;</br>
+              Height		&nbsp;&nbsp;&nbsp;&nbsp;coupé: 54.1 in (1,374 mm)&nbsp;&nbsp;
+                  convertible: 54.4 in (1,382 mm)&nbsp;&nbsp;
+                  4-door: 56.2 in (1,427 mm)&nbsp;&nbsp;</br>
+              Curb weight&nbsp;&nbsp;&nbsp;&nbsp;	5,100–5,300 lb (2,300–2,400 kg)
+            </p>
+          </div>
         </div>
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="IMGS/old cars/Jaguar E-Type SI.jpg" alt="" title="Albert Einstein"></div>
+          <div class="fullname">Jaguar E-Type SI</div>
+          <div class="title">(1963)</div>
+          <div class="js-description">
+            <p>
+            <h2>Overview</h2></br>
+            Also called &nbsp&nbsp;&nbsp;&nbsp;	Jaguar XK-E[29] </br>
+            Production &nbsp&nbsp;&nbsp;&nbsp;	March 1961–68[30][31] </br>
+            </br>
+              <h2>Body and chassis</h2></br>
+            Body style &nbsp&nbsp;&nbsp;&nbsp;	2-door fastback coupé &nbsp&nbsp;
+                2-door 2+2 fastback coupé &nbsp&nbsp;
+                2-door roadster &nbsp&nbsp;</br>
+            </br>
+              <h2>Powertrain</h2></br>
+            Engine &nbsp&nbsp;&nbsp;&nbsp;		3.8 L XK I6 &nbsp&nbsp;
+                4.2 L XK I6</br>
+            Transmission &nbsp&nbsp;&nbsp;&nbsp;	4-speed manual; &nbsp&nbsp; 3-speed automatic (automatic available 1966-onward, 2+2 model only)</br>
+            </br>
+              <h2>Dimensions</h2></br>
+            Wheelbase &nbsp&nbsp;&nbsp;&nbsp;	96.0 in (2,438 mm) (FHC / OTS) &nbsp&nbsp;&
+                105.0 in (2,667 mm) (2+2)[32] </br>
+            Length &nbsp&nbsp;&nbsp;&nbsp;		175.3125 in (4,453 mm) (FHC / OTS) &nbsp&nbsp;
+                184.4375 in (4,685 mm) (2+2)[32] </br>
+            Width &nbsp&nbsp;&nbsp;&nbsp;		65.25 in (1,657 mm) (all)[32]</br>
+            Height	 &nbsp&nbsp;&nbsp;&nbsp;	48.125 in (1,222 mm) (FHC) &nbsp&nbsp;
+                50.125 in (1,273 mm) (2+2) &nbsp&nbsp;
+                46.5 in (1,181 mm) (OTS)[32] </br>
+            Kerb weight &nbsp&nbsp;&nbsp;&nbsp;	2,900 lb (1,315 kg) (FHC) &nbsp&nbsp;
+                2,770 lb (1,256 kg) (OTS) &nbsp&nbsp;
+                3,090 lb (1,402 kg) (2+2)[33] &nbsp&nbsp;&nbsp;&nbsp;
+              </p>
+          </div>
+        </div>
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="IMGS/old cars/Mercedes Benz 300 SL.jpg" alt="" title="Albert Einstein"></div>
+          <div class="fullname">Mercedes Benz 300 SL</div>
+          <div class="title">(1957)</div>
+          <div class="js-description">
+            <p>
+              <h2>Overview</h2></br>
+              Manufacturer &nbsp;&nbsp;&nbsp;&nbsp;	Mercedes-Benz </br>
+              Production &nbsp;&nbsp;&nbsp;&nbsp;	1957 (Roadster) </br>
+              Assembly &nbsp;&nbsp;&nbsp;&nbsp;	West Germany: Stuttgart-Untertürkheim </br>
+              </br>
+                <h2>Body and chassis</h2></br>
+              Class &nbsp;&nbsp;&nbsp;&nbsp;		Sports car / Grand tourer </br>
+              Body style &nbsp;&nbsp;&nbsp;&nbsp;	2-door Coupe, Roadster </br>
+              Layout &nbsp;&nbsp;&nbsp;&nbsp;		FR layout </br>
+              Platform &nbsp;&nbsp;&nbsp;&nbsp;	Coupe W198 I, Roadster W198 II </br>
+              Doors	 &nbsp;&nbsp;&nbsp;&nbsp;	Conventional (Roadster) </br>
+              Related &nbsp;&nbsp;&nbsp;&nbsp;		Mercedes-Benz W121 BII (190 SL) </br>
+              </br>
+                <h2>Powertrain</h2></br>
+              Engine &nbsp;&nbsp;&nbsp;&nbsp;		2,996 cc (182.8 cu in) M198 Straight six </br>
+              Transmission &nbsp;&nbsp;&nbsp;&nbsp;	4-speed manual </br>
+              </br>
+                <h2>Dimensions</h2></br>
+              Wheelbase &nbsp;&nbsp;&nbsp;&nbsp;	2,400 mm (94.5 in) </br>
+              Length &nbsp;&nbsp;&nbsp;&nbsp;		4,520 mm (178.0 in)</br>
+              Width	 &nbsp;&nbsp;&nbsp;&nbsp;	1,790 mm (70.5 in) </br>
+              Height	 &nbsp;&nbsp;&nbsp;&nbsp;	1,300 mm (51.2 in) </br>
+              Curb weight &nbsp;&nbsp;&nbsp;&nbsp;	Coupe 1,500 kilograms (3,300 pounds), Roadster 1,560 kilograms (3,440 pounds), from 1961 1,660 kilograms (3,660 pounds) </br>
+              </br>
+                <h2>Chronology</h2></br>
+              Predecessor &nbsp;&nbsp;&nbsp;&nbsp;	Mercedes-Benz W194 (racing car) </br>
+              Successor &nbsp;&nbsp;&nbsp;&nbsp;	by name:
+                  Mercedes-Benz W113 (230SL) &nbsp;&nbsp;&nbsp;&nbsp;
+                  spiritual:
+                  Mercedes-Benz SLS AMG
+            </p>
+          </div>
+        </div>
+        <div class="person js-dropdown-item">
+          <div class="avatar"><img src="IMGS/jag-f.jpg" alt="" title="Albert Einstein"></div>
+          <div class="fullname">idk</div>
+          <div class="title">idk idk</div>
+          <div class="js-description">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="dropdownLayer.js"></script>
 
          <!--contact us-->
         <div id="contactus">
