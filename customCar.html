@@ -36,7 +36,7 @@
             <form action = "Server.html" > 
                 <h2>  Hijazi & Almidani car customizer </h2>
                 <table> 
-                    <tr> <td> Buyer's Name: </td> <td> <input type = "text" name = "name" size = "30" /> </td> 
+                    <tr> <td> Buyer's Name: </td> <td> <input type = "text" name = "name" required id = "name" onchange = "chkname();" maxlength="30" size="30"/> </td> 
                     </tr> 
                     <tr> <td> Street Address: </td> <td> <input type = "text" name = "street" size = "30" /> </td> 
                     </tr> 
@@ -45,19 +45,21 @@
                 </table> 
                 <table border = "border"> 
                     <tr> <th> Product Name </th> <th> Price </th> <th> Quantity </th> </tr> 
-                    <tr> <th> Custom rims (1 rim.) </th> <td> $50.00 </td> <td> <input type = "text" name = "unpop" size ="2" /> </td> </tr> 
-                    <tr> <th> Custom lamborghini Fabric (5 meters) </th> <td> $40.00 </td> <td> <input type = "text" name = "caramel" size = "2" /> </td> </tr> 
-                    <tr> <th> Rolls Royce angel </th> <td> $200.000 </td> <td> <input type = "text" name = "caramelnut" size = "2" /></td> </tr>
-                    <tr> <th> Custom pain job (1 shade) </th> <td> $99.99 </td> <td> <input type = "text" name = "toffeynut" size = "2" /></td> </tr> 
+                    <tr> <th> Custom rims (1 rim.) </th> <td> $50.00 </td> <td> <input type = "text" name = "unpop" size ="2" id="unpop" value="0" /> </td> </tr> 
+                    <tr> <th> Custom lamborghini Fabric (5 meters) </th> <td> $40.00 </td> <td> <input type = "text" name = "caramel" size = "2" id="caramel" value="0"/> </td> </tr> 
+                    <tr> <th> Rolls Royce angel </th> <td> $200.000 </td> <td> <input type = "text" name = "caramelnut" size = "2" id="caramelnut" value="0"/></td> </tr>
+                    <tr> <th> Custom pain job (1 shade) </th> <td> $99.99 </td> <td> <input type = "text" name = "toffeynut" size = "2" id="toffeynut" value="0"/></td> </tr> 
                 </table>
                 <h3> Payment Method: </h3> 
                 <p> 
-                    <input type = "radio" name = "payment" value = "visa" checked = "checked" /> Visa 
-                    <input type = "radio" name = "payment" value = "mc" /> Master Card 
-                    <input type = "radio" name = "payment" value = "discover" /> Discover 
-                    <input type = "radio" name = "payment" value = "check" /> Check <br/> </p> <p> 
+                    <input type = "radio" name = "payment" value = "0.2" checked = "checked"/> Visa 
+                    <input type = "radio" name = "payment" value = "0.3" /> Master Card 
+                    <input type = "radio" name = "payment" value = "1" /> Discover 
+                    <input type = "radio" name = "payment" value = "0.50" /> Check <br/> </p> <p> 
                     <input type = "submit" value = "Submit Order" /> 
                     <input type = "reset" value = "Clear Order Form" />
+                    <input type="button" id="cal" value="calculate" onclick="calculate();"/>
+                    <input type="text" size ="10" id="resulte"/>
                 </p>
             </form>
         </div>
@@ -88,6 +90,6 @@
             
         </div>
         <script type="text/javascript" src="mainScript.js"></script>
-        
+        <script type="text/javascript" src="form.js"></script>
     </body>
 </html>
