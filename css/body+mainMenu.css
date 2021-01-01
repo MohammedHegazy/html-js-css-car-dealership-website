@@ -40,9 +40,10 @@ body {
 }
 
 #logo {
-  top: -85px;
-  position: fixed;
-  height: 15rem;
+  top: 0rem;
+  left: 10px;
+  position: relative;
+  height: 4rem;
   max-width: auto;
 }
 
