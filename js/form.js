@@ -39,7 +39,7 @@ function calculate()
     x = x + (fabric*40);
 
     if (angel > 0 && angel < 10)
-    x = x + (angel*200000);
+    x = x + (angel*200);
 
     if (paint > 0 && paint < 10)
     x = x + (paint*99.99);
