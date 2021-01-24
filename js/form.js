@@ -32,17 +32,17 @@ function calculate()
     var angel =parseFloat(document.getElementById("angel").value);
     var paint = parseFloat(document.getElementById("paint").value);
 
-    if (rims > 0 && rims < 10)
+    if (rims > 0)
     {x = x + (rims*50);}
 
-    if (fabric > 0 && fabric < 10)
-    x = x + (fabric*40);
+    if (fabric > 0)
+    {x = x + (fabric*40);}
 
-    if (angel > 0 && angel < 10)
-    x = x + (angel*200);
+    if (angel > 0)
+    {x = x + (angel*200);}
 
-    if (paint > 0 && paint < 10)
-    x = x + (paint*99.99);
+    if (paint > 0)
+    {x = x + (paint*99.99);}
 
     y = document.getElementsByName("payment");
     for(i=0 ; i < y.length ; i++)
@@ -50,6 +50,7 @@ function calculate()
         if(y[i].checked)
         {
             x = x * y[i].value;
+            break;
         }
     }
     document.getElementById("resulte").value = x +"$";
