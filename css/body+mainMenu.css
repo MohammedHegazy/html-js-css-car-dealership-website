@@ -58,7 +58,7 @@ body {
   height: 5rem;
   position: fixed;
   bottom: 0;
-  left: 0;
+  right: 0;
   border-radius: 20px;
   width: auto;
   transition-duration: 0.2;
